@@ -94,13 +94,13 @@ export default function Experience() {
           <div className="experience_content">
             <article className='experience__details'>
               <AiOutlineCheck/>
-              <h4>Adobe illustrator  </h4>
+              <h4>Illustrator  </h4>
               <small className="text-light">Logos | patterns</small>
             </article>
 
             <article className='experience__details'>
               <AiOutlineCheck/>
-              <h4>Adobe Indesign</h4>
+              <h4>Indesign</h4>
               <small className="text-light">visual communication | book styling</small>
             </article>
 
