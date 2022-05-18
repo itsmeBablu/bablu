@@ -1,0 +1,50 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfilio__item{
+    background: var(--color-bg-variant);
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: 1px solid transparent;
+    transition: var(transition);
+}
+
+.portfilio__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-image{
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.portfilio__item h3{
+    margin: 0.5rem 0 0.5rem;
+}
+
+.portfolio__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+
+
+/*----------------- Media Quaries------------------*/
+@media screen and (max-width: 1024px){
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 0.8rem;
+
+    }
+}
+/*-------------phone--------------*/
+@media screen and(max-width: 600px){
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap:0.5rem;
+    }
+}
