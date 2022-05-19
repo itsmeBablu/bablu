@@ -24,19 +24,19 @@ export default function About() {
             <article className='about__card'>
               <BsAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ years Working</small>
+              <small>5+ years Working</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ WorldWide</small>
+              <small>2+ WorldWide</small>
             </article>
 
             <article className='about__card'>
               <BsFolderCheck className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Projects</small>
+              <small>2+ Projects</small>
             </article>
 
             
