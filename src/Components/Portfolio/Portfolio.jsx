@@ -53,7 +53,7 @@ const data = [
 ];
 export default function Portfolio() {
   return (
-    <section>
+    <section id="portfolio">
       <h5>My imposing work</h5>
       <h2>samples</h2>
       <div className="container portfolio__container">
