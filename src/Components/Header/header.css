@@ -40,6 +40,9 @@ header {
   height: 2rem;
   background: var(--color-bg-variant);
 }
+h1 {
+  color: #5aa768;
+}
 
 /*----------------Photo ----------------*/
 .me {
