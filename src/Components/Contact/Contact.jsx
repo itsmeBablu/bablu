@@ -30,7 +30,7 @@ export default function Contact() {
           <article className="contact__option">
             <AiOutlineMail className="contact__option-icon" />
             <h4>Mail me</h4>
-            <h4>kanala.babureddy@gmail.com</h4>
+            <h5>kanala.babureddy@gmail.com</h5>
             <a href="mailto:kanala.babureddy@gmail.com" target="_blank">
               Send a message
             </a>
