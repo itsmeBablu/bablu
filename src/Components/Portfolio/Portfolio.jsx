@@ -33,7 +33,7 @@ const data = [
     id: 4,
     image: ImgMax,
     title: "3d visualisation",
-    youTube: "https://www.youtube.com/watch?v=K1NScNv3p-0",
+    youTube: "https://www.youtube.com/watch?v=_Vgf3ENRk7M",
     more: "#",
   },
   {
